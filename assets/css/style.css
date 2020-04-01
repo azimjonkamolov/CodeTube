@@ -30,6 +30,60 @@ body
     align-items: center;
 }
 
+#mastHeadContainer button
+{
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: transparent;
+}
+
+#mastHeadContainer button img
+{
+    width: 100%;
+}
+
+#sideNavContainer
+{
+    width: 240px;
+    background-color: #f5f5f5;
+    padding-top: 56px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#mainSectionContainer
+{
+    padding-top: 56px;
+    display: flex;
+}
+
+#mainSectionContainer.leftPadding
+{
+    padding-left: 240px;
+}
+
+#mainContentContainer
+{
+    padding: 10px 30px;
+}
+
+#mastHeadContainer .logoContainer
+{
+    width: 250px;
+}
+
+#mastHeadContainer .logoContainer img
+{
+    height: 40px;
+    margin-left: 10px;
+}
 
 
 
